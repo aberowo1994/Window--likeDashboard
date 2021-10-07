@@ -230,6 +230,8 @@ a {
 .dashboard--lists li {
     padding: 10px 0px 0px 10px;
     height: 100px;
+    width: 100%;
+    overflow: hidden;
 }
 .dashboard--lists li a {
     display: flex;
@@ -242,10 +244,12 @@ a {
     /* border: 2px solid red; */
     /* width: 200px; */
     line-height: 20px;
+    white-space: inherit;
 }
 .dashboard--lists li a .list--contents h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'paprika';
+    font-weight: bolder;
     text-transform: uppercase;
     color: #f5f5f5;
 
