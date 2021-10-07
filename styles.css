@@ -227,6 +227,10 @@ a {
     /* place-items: center; */
     grid-gap: 20px;
 }
+.dashboard--lists li {
+    padding: 10px 0px 0px 10px;
+    height: 100px;
+}
 .dashboard--lists li a {
     display: flex;
     justify-content: baseline;
@@ -262,4 +266,12 @@ a {
 
 .icon--list .fas,.far {
     color: #e9b872;
+}
+
+li:hover {
+    border: 2px solid rgba(255,255,255,0.5);
+    /* background: rgba(0,0,0,0.1) */
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    border-radius: 15px;
 }
